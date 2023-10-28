@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:id="@+id/Tlbottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFBC1F"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TableRow
+            android:background="@drawable/tablec"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="נעשה/לא נעשה"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginRight="60dp"
+                android:gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="שם המוצר"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            />
+    </TableRow>
+
+
+    </TableLayout>
+
+</FrameLayout>
